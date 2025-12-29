@@ -58,7 +58,7 @@ ssh root@192.168.1.1
 
 # Создайте папку и скачайте скрипт
 mkdir -p /root/scripts
-curl -o /root/scripts/router-backup.sh wget https://raw.githubusercontent.com/tatarinovms/OpenWRTBackupScript/main/router-backup.sh
+curl -o /root/scripts/router-backup.sh 
 
 # Сделайте исполняемым
 chmod +x /root/scripts/router-backup.sh
